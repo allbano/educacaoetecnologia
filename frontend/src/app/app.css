@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  min-height: 100dvh;
+  background-color: #f8fafc;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 100;
+  padding: 0.75rem 1.25rem;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+}
+
+.hero-bg {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(148, 163, 184, 0.18), transparent 70%),
+    #f8fafc;
+}

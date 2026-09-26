@@ -1,0 +1,12 @@
+{
+    "bun.runtime": "/home/albano/.local/share/mise/shims/bun",
+    "deno.path": "/home/albano/.local/share/mise/shims/deno",
+    "go.alternateTools": {
+        "go": "/home/albano/.local/share/mise/shims/go",
+        "dlv": "/home/albano/.local/share/mise/shims/dlv",
+        "gopls": "/home/albano/.local/share/mise/shims/gopls"
+    },
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "/home/albano/.local/share/mise/shims/node"
+    }
+}
